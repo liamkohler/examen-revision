@@ -1,0 +1,33 @@
+.flexbox-container1,
+.flexbox-container2,
+.flexbox-container3 {
+  margin: 50px 0;
+}
+
+.flexbox-container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flexbox-container3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexbox-box {
+  background-color: $flex-blue;
+  border: $flex-border 1px solid;
+  padding: 20px;
+}
+
+.flexbox-container3 .flexbox-box {
+  background-color: $flex-blue;
+  border: $flex-border 1px solid;
+  width: 25%;
+}
