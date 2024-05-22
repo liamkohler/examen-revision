@@ -4,6 +4,12 @@
   margin: 50px 0;
 }
 
+.flexbox-box {
+  background-color: $flex-blue;
+  border: $flex-border 1px solid;
+  padding: 20px;
+}
+
 .flexbox-container1 {
   display: flex;
   justify-content: center;
@@ -20,14 +26,7 @@
   flex-wrap: wrap;
 }
 
-.flexbox-box {
-  background-color: $flex-blue;
-  border: $flex-border 1px solid;
-  padding: 20px;
-}
-
 .flexbox-container3 .flexbox-box {
   background-color: $flex-blue;
-  border: $flex-border 1px solid;
   width: 25%;
 }
